@@ -18,19 +18,19 @@ def modificaciones(nombre, nombre_equipo):
     return nombre, nombre_equipo, letras, sigla, tiene_digito
 
 def main():
-    equipo = int(input("ingrese numero del equipo: "))
-    nombre_equipo = input("ingrese nombre del equipo: ")
-    integrantes = int(input("ingrese cant. de integrantes: "))
+    equipo = int(input("Ingrese numero del equipo: "))
+    nombre_equipo = input("Ingrese nombre del equipo: ")
+    integrantes = int(input("Ingrese cant. de integrantes: "))
 
     grupo_nombre = []
     grupo_comision = []
     grupo_rol = []
     for i in range(integrantes):
-        nombre = input("ingrese nombre del integrante: ")
+        nombre = input("Ingrese nombre del integrante: ")
         grupo_nombre.append(nombre)
-        comision = input("ingrese comision del integrante: ")
+        comision = input("Ingrese comision del integrante: ")
         grupo_comision.append(comision)
-        rol = input("ingrese rol del integrante: ")
+        rol = input("Ingrese rol del integrante: ")
         grupo_rol.append(rol)
 
     grupo_nombre, nombre_equipo, letras, sigla, tiene_digito = modificaciones(grupo_nombre, nombre_equipo)
