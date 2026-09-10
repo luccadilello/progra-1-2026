@@ -1,8 +1,8 @@
 # Lista de contenidos:
-contenidos = [“Game Of Thrones”, “Shrek”, “Cars”]
+contenidos = ["Game Of Thrones", "Shrek", "Cars"]
 
 # Lista de Usuarios: 
-usuarios = [“Esteban”, “Sofi”, “Lucca”,”Mariangel”, “Pepe”, “Roberto”, “Andres”, “Luciana”, “Micaela”, “Tomas”]
+usuarios = ["Esteban", "Sofi", "Lucca","Mariangel", "Pepe", "Roberto", "Andres", "Luciana", "Micaela", "Tomas"]
 
 visualizaciones = [
     [3, 1, 4],  # Esteban
@@ -19,11 +19,11 @@ visualizaciones = [
 
 
 # Lista de géneros:
-generos = [“Fantasía”, “Ciencia Ficción”, “Acción”]
+generos = ["Fantasía", "Ciencia Ficción", "Acción"]
 
 # Tupla de tipos:
-tipos = (“Película”, “Serie”, “Show”)
-
+tipos = ("Película", "Serie", "Película")
+         
 # Lista de códigos de contenidos:
-codigosContenidos = [“C01”, “C02”, “C03”]
+codigosContenidos = ["C01", "C02", "C03"]
 
