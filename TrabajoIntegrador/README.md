@@ -9,23 +9,46 @@ Buscar contenido
 Estadísticas e indicadores
 Ranking e informes
 Salir.
-Va a haber una matriz preexistente de los contenidos vistos por cada usuario y listas de series o películas, géneros y tipos.
+Va a haber una matriz preexistente de los contenidos vistos por cada usuario y listas de series o películas, géneros y tipos. 
+Matriz de Visualizaciones por usuario:
+Usuarios / Contenidos
+Game of Thrones
+Shrek
+Esteban
+3
+1
+Sofi
+2
+4
+Lucca
+0
+2
+Mariangel
+1
+5
+…
+…
+…
+
 
 Lista de títulos:
-[“Game Of Thrones”, “Shrek”, “Cars”]
+contenidos = ["Game Of Thrones", "Shrek", "Cars", "Breaking Bad", "Titanic", "Stranger Things", "Avengers: Endgame", "Toy Story", "The Walking Dead", "Harry Potter"]
 
 Lista de géneros:
-[“Fantasía”, “Ciencia Ficción”, “Acción”]
+generos = ["Fantasía", "Comedia", "Animación", "Drama", "Romance", "Ciencia Ficción", "Acción", "Animación", "Terror", "Fantasía"]
 
 Tupla de tipos:
-(“Película”, “Serie”, “Show”)
+tipos = ("Serie", "Película", "Película", "Serie", "Película", "Serie", "Película", "Película", "Serie", "Película")
 
 Lista de códigos de contenidos:
-[“C01”, “C02”, “C03”]
+[“C01”, “C02”, “C03”, “C04”, “C05”, “C06”, “C07”, “C08”, “C09”, “C10”]
 
 Lista de Usuarios: 
 [“Esteban”, “Sofi”, “Lucca”,”Mariangel”, “Pepe”, “Roberto”, “Andres”, “Luciana”, “Micaela”, “Tomas”]
-Los usuarios van a poder agregar películas o series.
+
+Lista de códigos de usuarios:
+[“U01”, “U02”, “U03”, “U04”, “U05”, “U06”, “U07”, “U08”, “U09”, “U10”]
+Los usuarios NO van a poder agregar películas o series. Las listas van a estar precargadas.
 Registro de datos: El usuario carga qué contenido vio y el nombre de la persona, y se le suma +1 a las visualizaciones de ese usuario del contenido. En caso de que no exista el contenido, se muestra un mensaje de error: “Contenido no existente”
 
 
@@ -72,4 +95,8 @@ Al seleccionar Salir, termina el programa.
 Fuera de Alcance 
 Persistencia de datos / Base de datos 
 inicio de sesión 
-Agregar o eliminar contenidos, géneros, tipos o usuarios
+Autenticación.
+Alta / baja de contenidos, géneros, tipos y usuarios
+Conexión con plataforma reales
+Reproducción multimedia.
+Aplicaciones web/móvil
