@@ -1,8 +1,69 @@
 # Lista de contenidos:
-contenidos = ["Game Of Thrones", "Shrek", "Cars"]
+contenidos = [
+    "Game Of Thrones",
+    "Shrek",
+    "Cars",
+    "Breaking Bad",
+    "Titanic",
+    "Stranger Things",
+    "Avengers: Endgame",
+    "Toy Story",
+    "The Walking Dead",
+    "Harry Potter"
+]
+
+generos = [
+    "Fantasía",
+    "Comedia",
+    "Animación",
+    "Drama",
+    "Romance",
+    "Ciencia Ficción",
+    "Acción",
+    "Animación",
+    "Terror",
+    "Fantasía"
+]
+
+tipos = (
+    "Serie",
+    "Película",
+    "Película",
+    "Serie",
+    "Película",
+    "Serie",
+    "Película",
+    "Película",
+    "Serie",
+    "Película"
+)
+
+codigosContenidos = [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06",
+    "C07",
+    "C08",
+    "C09",
+    "C10"
+]
 
 # Lista de Usuarios: 
-usuarios = ["Esteban", "Sofi", "Lucca","Mariangel", "Pepe", "Roberto", "Andres", "Luciana", "Micaela", "Tomas"]
+usuarios = [
+    "Esteban", 
+    "Sofi", 
+    "Lucca",
+    "Mariangel", 
+    "Pepe", 
+    "Roberto", 
+    "Andres", 
+    "Luciana", 
+    "Micaela", 
+    "Tomas"
+]
 
 visualizaciones = [
     [3, 1, 4],  # Esteban
@@ -17,13 +78,4 @@ visualizaciones = [
     [0, 3, 2]   # Tomas
 ]
 
-
-# Lista de géneros:
-generos = ["Fantasía", "Ciencia Ficción", "Acción"]
-
-# Tupla de tipos:
-tipos = ("Película", "Serie", "Película")
          
-# Lista de códigos de contenidos:
-codigosContenidos = ["C01", "C02", "C03"]
-
