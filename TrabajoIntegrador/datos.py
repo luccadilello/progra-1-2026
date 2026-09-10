@@ -65,6 +65,21 @@ usuarios = [
     "Tomas"
 ]
 
+# Lista de códigos de usuarios:
+codigosUsuarios = [
+    "U01", #Esteban
+    "U02", #Sofi
+    "U03", #Lucca
+    "U04", #Mariangel
+    "U05", #Pepe
+    "U06", #Roberto
+    "U07", #Andres
+    "U08", #Luciana
+    "U09", #Micaela
+    "U10"  #Tomas
+]
+
+
 visualizaciones = [
     [3, 1, 4, 2, 0, 3, 1, 2, 0, 4],  # Esteban
     [2, 4, 1, 3, 2, 1, 0, 5, 2, 3],  # Sofi

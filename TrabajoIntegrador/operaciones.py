@@ -1,5 +1,17 @@
 import datos
 
+def listar_usuarios():
+    print("\n--- LISTA DE USUARIOS ---")
+
+    for i in range(len(datos.usuarios)):
+        print(
+            i + 1,
+            ".",
+            datos.codigosUsuarios[i],
+            "-",
+            datos.usuarios[i]
+        )
+
 def listar_contenidos():
     print("\n--- LISTA DE CONTENIDOS ---")
 
