@@ -24,7 +24,7 @@ def listar_contenidos():
 
 def registrar_visualizacion(usuario_actual):
     contenido_ingresado = input(
-        "\nIngrese el código o título del contenido: "
+        "\nIngrese el código o título del contenido:"
     ).strip()
 
     posicion_contenido = -1
